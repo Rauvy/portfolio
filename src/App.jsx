@@ -10,7 +10,7 @@ function App() {
     <div className="w-full h-screen overflow-y-scroll scroll-smooth bg-zinc-900 text-white">
       {/*<Header />*/}
       <Start />
-      <Loading />
+      <About />
 
       {/*<Main sections={[About]}/>*/}
     </div>
