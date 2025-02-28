@@ -1,15 +1,20 @@
-import React from 'react'
-import Header from './components/Header';
 
+import Header from "./components/Header";
+import Main from "./components/Main"; 
+import About from './components/About';
+import Start from './components/Start';
+import Loading from "./components/Loading";
 
 function App() {
-  
-
   return (
-    <>
-     <Header />
-    </>
-  )
+    <div className="w-full h-screen overflow-y-scroll scroll-smooth bg-zinc-900 text-white">
+      {/*<Header />*/}
+      <Start />
+      <Loading />
+
+      {/*<Main sections={[About]}/>*/}
+    </div>
+  );
 }
 
-export default App
+export default App;
