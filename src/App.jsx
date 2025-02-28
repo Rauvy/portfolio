@@ -1,18 +1,15 @@
 
-import Header from "./components/Header";
-import Main from "./components/Main"; 
 import About from './components/About';
 import Start from './components/Start';
 import Loading from "./components/Loading";
+import Projects from "./components/Projects";
 
 function App() {
   return (
     <div className="w-full h-screen overflow-y-scroll scroll-smooth bg-zinc-900 text-white">
-      {/*<Header />*/}
       <Start />
       <About />
-
-      {/*<Main sections={[About]}/>*/}
+      <Projects />
     </div>
   );
 }
