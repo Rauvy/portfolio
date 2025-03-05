@@ -1,6 +1,6 @@
 const Start = () => {
   return (
-    <div className="bg-[#222831] text-[#EEEEEE] w-full h-screen flex flex-col justify-between">
+    <div className="bg-[#181818] text-[#EEEEEE] w-full h-screen flex flex-col justify-between">
       <div className="flex justify-between items-center px-6 py-4 text-sm uppercase tracking-wide">
         <p className="text-2xl">R.Y.</p>
         <p className="text-[#FFD369]">Creative Portfolio V.0.1</p>
