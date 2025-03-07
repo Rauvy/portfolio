@@ -12,7 +12,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-[#181818] flex flex-col px-8 py-16">
+    <div className="bg-[#181818] flex flex-col px-8 py-16" id="contact">
 
       {/* 🔥 Header - Adjusted for Shorter Height */}
       <div className="flex flex-col items-start text-center ml-36 mb-20">
@@ -38,13 +38,13 @@ const Contact = () => {
         <div className="text-center">
           <p className="text-gray-400 text-lg">SOCIALS</p>
           <div className="flex gap-4 mt-2 justify-center">
-            <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/yakubivr" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faTwitter} className="text-white text-2xl p-2 border border-gray-500 rounded-lg hover:bg-gray-700 cursor-pointer"/>
             </a>
-            <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/yakubiiv/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} className="text-white text-2xl p-2 border border-gray-500 rounded-lg hover:bg-gray-700 cursor-pointer"/>
             </a>
-            <a href="https://github.com/yourhandle" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Rauvy" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} className="text-white text-2xl p-2 border border-gray-500 rounded-lg hover:bg-gray-700 cursor-pointer"/>
             </a>
           </div>

@@ -1,17 +1,18 @@
 const Start = () => {
   return (
     <div className="bg-[#181818] text-[#EEEEEE] w-full h-screen flex flex-col justify-between">
-      <div className="flex justify-between items-center px-6 py-4 text-sm uppercase tracking-wide">
-        <p className="text-2xl">R.Y.</p>
-        <p className="text-[#FFD369]">Creative Portfolio V.0.1</p>
-        <p className="hidden md:block">
+      <div className="grid grid-cols-3 md:grid-cols-4 items-center px-6 py-4 text-sm uppercase tracking-wide w-full">
+        <p className="text-2xl text-left">R.Y.</p>
+        <p className="text-[#FFD369] text-center">Creative Portfolio V.0.1</p>
+        <p className="hidden md:flex items-center justify-center">
           <span className="material-symbols-rounded text-2xl mx-2">planet</span>
           Toronto, CA
         </p>
-        <p className="hidden md:block">All Rights Reserved</p>
+        <p className="hidden md:flex justify-end">All Rights Reserved</p>
       </div>
 
-      {/* Main Text */}
+
+
       <div className="flex flex-col justify-start flex-grow pt-20">
         <h1 className="text-6xl md:text-9xl font-bold tracking-wide text-[#FFD369] text-center">
           REHINA
