@@ -2,7 +2,7 @@ import test from "../assets/test.jpeg";
 
 const Projects = () => {
   return (
-    <div className="bg-[#181818] py-16">
+    <div className="bg-[#181818] py-16 w-full">
       
       {/* 🔥 Featured Projects Title (UNCHANGED) */}
       <div className="flex flex-col items-start text-center mb-16 ml-40">
